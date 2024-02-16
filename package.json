@@ -1,19 +1,26 @@
 {
-  "name": "goit-node-cli",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "nodemon index.js",
-    "stat": "node --watch index.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^3.0.1"
-  },
   "dependencies": {
     "commander": "^11.1.0",
-    "uuid": "^9.0.1"
-  }
+    "nanoid": "^5.0.5"
+  },
+  "name": "goit-node-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wanderer1333/goit-node-cli"
+  },
+  "author": "Vadym Khlivetskyi",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Wanderer1333/goit-node-cli/issues"
+  },
+  "homepage": "https://github.com/Wanderer1333/goit-node-cli",
+  "keywords": [],
+  "description": ""
 }
